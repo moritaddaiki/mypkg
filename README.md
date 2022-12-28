@@ -107,11 +107,13 @@ $ git clone https://github.com/moritaddaiki/ros2_ws.git
 1.コピーしたディレクトリの一番上に移動してください。  
 (これらのノードは上の「**このパッケージのコピー方法について**」を行った上で実行してください。)  
 <br>
+<br>
 
 2.以下のコマンドを実行してください。これでパッケージ内容がビルドされます。  
 ```
 $ colcon build
 ``` 
+<br>
 <br> 
 
 3.次に`ros2_ws`下のパッケージを利用可能にするため、以下のコマンドを実行します。  
@@ -120,6 +122,7 @@ $ source ~/ros2_ws/install/setup.bash
 $ source ~/ros2_ws/install/local_setup.bash
 ```  
 <br>
+<br>
 
 4.次に、設定周りを読み込ませてそのパッケージが動作するか確認します。
 ```
@@ -127,6 +130,7 @@ $ source ~/.bashrc
 $ ros2 pkg list | grep mypkg
 mypkg
 ```  
+<br>
 <br>
 
 5.以上でビルド作業は完了です。後は各プログラムを実行すれば結果が出ます。  
