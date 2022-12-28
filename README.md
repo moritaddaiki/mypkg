@@ -1,4 +1,4 @@
-# ros2のパッケージ
+# ros2-package
 
 これらは授業で製作したものです。  
 また、これらは下の「**このパッケージのコピー方法について**」と「**このパッケージのビルド方法について**」を行った上で実行してください。  
@@ -41,7 +41,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 * **mypkg/talker.py**  
-数字をカウントして送信するノードです。基本的に後述の`listener.py`と一緒に使います。  
+数字をカウントしてトピック通信するノードです。基本的に後述の`listener.py`と一緒に使います。  
 また、実行するには以下のコマンドを入力してください。
 
 ```
@@ -50,7 +50,7 @@ $ ros2 run mypkg talker
 ```  
 
 * **mypkg/listener.py**  
-`talker.py`からメッセージを貰って表示するノードです。  
+`talker.py`トピック通信でメッセージ（この場合は数字）を貰って表示するノードです。  
 これを実行するには、もう1つを開いた上で以下のコマンドを実行してください。  
 また、このノードを使用する場合は`talker.py`を実行しているターミナルではなく、新しいターミナルを開いて実行してください。  
 (数字はここに出している例と異なる場合がありますが、正常に作動します。) 
@@ -67,7 +67,10 @@ $ ros2 run mypkg listener.py
 
 ## 必要なソフトウェア
 * Python  
-テスト済み: 3.7～3.10
+テスト済み: 3.7～3.10  
+
+* ros2  
+使用バージョン：humble
 
 ## テスト環境
 * ubuntu
@@ -96,11 +99,11 @@ githubアカウントを持っている人は`SSH`を、持っていない人は
 <br>
 **・githubアカウントを持っている人**
 ```
-$ git clone git@github.com:moritaddaiki/ros2_ws.git
+$ git clone git@github.com:moritaddaiki/ros2-package.git
 ```
 **・githubアカウントを持っていない人**
 ```
-$ git clone https://github.com/moritaddaiki/ros2_ws.git
+$ git clone https://github.com/moritaddaiki/ros2-package.git
 ```
 <br>
 <br>
@@ -113,7 +116,7 @@ $ git clone https://github.com/moritaddaiki/ros2_ws.git
 
 ## このパッケージのビルド方法について
 
-1.コピーしたディレクトリの一番上に移動してください。  
+1.コピーしたディレクトリ(今回は`ros2_ws`と仮定する)の一番上に移動してください。  
 (これらのノードは上の「**このパッケージのコピー方法について**」を行った上で実行してください。)  
 <br>
 <br>
