@@ -1,11 +1,11 @@
-# ros2-package
+# mypkg
 
 これらは授業で製作したものです。  
 また、これらは下の「**このパッケージのコピー方法について**」と「**このパッケージのビルド方法について**」を行った上で実行してください。  
 
 <br>
 
-![test](https://github.com/moritaddaiki/ros2_ws/actions/workflows/test.yml/badge.svg)  
+![test](https://github.com/moritaddaiki/mypkg/actions/workflows/test.yml/badge.svg)  
 このバッジは`./github/workflows/test.yml`のテストプログラムに通過しているか示すものです。
 <br>
 
@@ -99,11 +99,11 @@ githubアカウントを持っている人は`SSH`を、持っていない人は
 <br>
 **・githubアカウントを持っている人**
 ```
-$ git clone git@github.com:moritaddaiki/ros2-package.git
+$ git clone git@github.com:moritaddaiki/mypkg.git
 ```
 **・githubアカウントを持っていない人**
 ```
-$ git clone https://github.com/moritaddaiki/ros2-package.git
+$ git clone https://github.com/moritaddaiki/mypkg.git
 ```
 <br>
 <br>
