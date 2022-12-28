@@ -136,7 +136,7 @@ $ source ~/ros2_ws/install/local_setup.bash
 <br>
 <br>
 
-4.次に、設定周りを読み込ませてそのパッケージが動作するか確認します。
+4.次に、設定周りを読み込ませてそのパッケージが動作するか確認します。ビルド完了したら`mypkg`が赤く表示されます。
 ```
 $ source ~/.bashrc
 $ ros2 pkg list | grep mypkg
