@@ -6,7 +6,7 @@
 <br>
 
 ![test](https://github.com/moritaddaiki/ros2_ws/actions/workflows/test.yml/badge.svg)  
-これは`./github/workflows/test.yml`のテストプログラムに通過しているか>示すものです。
+これは`./github/workflows/test.yml`のテストプログラムに通過しているか示すものです。
 <br>
 
 
@@ -89,11 +89,11 @@ githubアカウントを持っている人は`SSH`を、持っていない人は
 <br>
 
 ４．（１.）で作成したディレクトリで先程の手順でコピーしたリポジトリパス>を下のように実行します。  
-・githubアカウントを持っている人
+**・githubアカウントを持っている人**
 ```
 $ git clone git@github.com:moritaddaiki/ros2_ws.git
 ```
-・githubアカウントを持っていない人
+**・githubアカウントを持っていない人**
 ```
 $ git clone https://github.com/moritaddaiki/ros2_ws.git
 ```
@@ -104,7 +104,7 @@ $ git clone https://github.com/moritaddaiki/ros2_ws.git
 
 ## このパッケージのビルド方法について
 
-これらのノードは上の**このパッケージのコピー方法について**を行った上で実行してください。　　
+これらのノードは上の「**このパッケージのコピー方法について**」を行った上で実行してください。　　
 
 
 1.コピーしたディレクトリの一番上に移動してください。  
