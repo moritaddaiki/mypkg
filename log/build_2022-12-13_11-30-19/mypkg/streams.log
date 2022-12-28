@@ -1,0 +1,44 @@
+[0.549s] Invoking command in '/home/moritadaiki/ros2_ws/src/mypkg': PYTHONPATH=/home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg --record /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.741s] running egg_info
+[0.741s] creating build/mypkg/mypkg.egg-info
+[0.742s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.742s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.742s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.742s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.742s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.742s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.743s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.744s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.744s] running build
+[0.745s] running build_py
+[0.745s] creating /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build
+[0.745s] creating /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.745s] creating /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.745s] copying mypkg/talker.py -> /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.745s] copying mypkg/listener.py -> /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.745s] copying mypkg/__init__.py -> /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.745s] running install
+[0.746s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.746s]   warnings.warn(
+[0.746s] running install_lib
+[0.747s] creating /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.747s] copying /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.747s] copying /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.747s] copying /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.748s] byte-compiling /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.748s] byte-compiling /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.748s] byte-compiling /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.748s] running install_data
+[0.749s] creating /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.749s] creating /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.749s] creating /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.749s] copying resource/mypkg -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.749s] copying package.xml -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.749s] copying launch/talk_listen.launch.py -> /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.749s] running install_egg_info
+[0.751s] Copying build/mypkg/mypkg.egg-info to /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.751s] running install_scripts
+[0.767s] Installing listener script to /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.767s] Installing talker script to /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.767s] writing list of installed files to '/home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.786s] Invoked command in '/home/moritadaiki/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/moritadaiki/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/moritadaiki/ros2_ws/src/mypkg/install/mypkg --record /home/moritadaiki/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
