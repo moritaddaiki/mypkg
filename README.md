@@ -6,7 +6,7 @@
 <br>
 
 ![test](https://github.com/moritaddaiki/mypkg/actions/workflows/test.yml/badge.svg)  
-このバッジは`./github/workflows/test.yml`のテストプログラムに通過しているか示すものです。
+このバッジは`.github/workflows/test.yml`のテストプログラムに通過しているか示すものです。
 <br>
 
 
@@ -80,7 +80,7 @@ $ ros2 run mypkg listener.py
 ## このパッケージのコピー方法について
 
 1.ubuntu22.04.1 LTSを開いて、任意の名前のディレクトリを作成します。ディレクトリを作成しなかった場合は現在開かれている場所にクローンしてきたリポジトリが作成されます。  
-__(対応しているPythonのバージョンを一度確認してください。)__  
+__(対応しているPython、ros2のバージョンを一度確認してください。)__  
 <br>
 <br>
 
