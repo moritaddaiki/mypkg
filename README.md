@@ -41,7 +41,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ```
 
 * **mypkg/talker.py**  
-数字をカウントしてトピック通信するノードです。基本的に後述の`listener.py`と一緒に使います。  
+数字をカウントして`talker`というトピック名でトピック通信するノードです。基本的に後述の`listener.py`と一緒に使います。  
 また、実行するには以下のコマンドを入力してください。
 
 ```
@@ -50,7 +50,7 @@ $ ros2 run mypkg talker
 ```  
 
 * **mypkg/listener.py**  
-`talker.py`からトピック通信でメッセージ（この場合は数字）を貰って表示するノードです。  
+`talker.py`から`listener`というトピック名でトピック通信し、メッセージ（この場合は数字）を貰って表示するノードです。  
 これを実行するには、もう1つを開いた上で以下のコマンドを実行してください。  
 また、このノードを使用する場合は`talker.py`を実行しているターミナルではなく、新しいターミナルを開いて実行してください。  
 (数字はここに出している例と異なる場合がありますが、正常に作動します。) 
@@ -66,9 +66,6 @@ $ ros2 run mypkg listener.py
 
 
 ## 必要なソフトウェア
-* Python  
-テスト済み: 3.7～3.10  
-
 * ros2  
 使用バージョン：humble
 
@@ -116,7 +113,7 @@ $ git clone https://github.com/moritaddaiki/mypkg.git
 
 ## このパッケージのビルド方法について
 
-1.コピーしたディレクトリ(今回は`ros2_ws`と仮定する)の一番上に移動してください。  
+1.コピーしたディレクトリの一番上に移動してください。  
 (これらのノードは上の「**このパッケージのコピー方法について**」を行った上で実行してください。)  
 <br>
 <br>
@@ -128,10 +125,10 @@ $ colcon build
 <br>
 <br> 
 
-3.次に`ros2_ws`下のパッケージを利用可能にするため、以下のコマンドを実行します。  
+3.次にコピーしたパッケージを利用可能にするため、以下のコマンドを実行します。  
 ```
-$ source ~/ros2_ws/install/setup.bash
-$ source ~/ros2_ws/install/local_setup.bash
+$ source ~/mypkg/install/setup.bash
+$ source ~/mypkg/install/local_setup.bash
 ```  
 <br>
 <br>
