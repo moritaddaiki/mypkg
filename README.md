@@ -56,7 +56,7 @@ $ ros2 run mypkg talker
 (数字はここに出している例と異なる場合がありますが、正常に作動します。) 
 
 ```
-$ ros2 run mypkg listener.py
+$ ros2 run mypkg listener
 [INFO] [1671253843.712072100] [listener]: Listen: 42
 [INFO] [1671253844.203989300] [listener]: Listen: 43
 [INFO] [1671253844.704709000] [listener]: Listen: 44
@@ -77,7 +77,7 @@ $ ros2 run mypkg listener.py
 ## このパッケージのコピー方法について
 
 1.ubuntu22.04.1 LTSを開いて、任意の名前のディレクトリを作成します。ディレクトリを作成しなかった場合は現在開かれている場所にクローンしてきたリポジトリが作成されます。  
-__(対応しているPython、ros2のバージョンを一度確認してください。)__  
+__(対応しているros2のバージョンを一度確認してください。)__  
 <br>
 <br>
 
